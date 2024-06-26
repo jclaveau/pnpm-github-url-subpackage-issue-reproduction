@@ -1,0 +1,27 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@directus/errors':
+        specifier: github:directus/directus
+        version: directus-monorepo@https://codeload.github.com/directus/directus/tar.gz/d6ce1d88f4849ed2cb4f3341fbf5012b9c5123b0
+      '@directus/sdk':
+        specifier: github:directus/directus
+        version: directus-monorepo@https://codeload.github.com/directus/directus/tar.gz/d6ce1d88f4849ed2cb4f3341fbf5012b9c5123b0
+
+packages:
+
+  directus-monorepo@https://codeload.github.com/directus/directus/tar.gz/d6ce1d88f4849ed2cb4f3341fbf5012b9c5123b0:
+    resolution: {tarball: https://codeload.github.com/directus/directus/tar.gz/d6ce1d88f4849ed2cb4f3341fbf5012b9c5123b0}
+    version: 0.0.0
+    engines: {node: '>=18.18.0', pnpm: '9'}
+
+snapshots:
+
+  directus-monorepo@https://codeload.github.com/directus/directus/tar.gz/d6ce1d88f4849ed2cb4f3341fbf5012b9c5123b0: {}

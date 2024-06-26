@@ -1,0 +1,12 @@
+{
+  "name": "jclaveau/pnpm-github-url-subpackage-issue-reproduction",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "@directus/errors": "github:directus/directus",
+    "@directus/sdk": "github:directus/directus"
+  }
+}
